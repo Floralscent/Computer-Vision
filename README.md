@@ -1,7 +1,7 @@
 ### 통합 구동 영상
 nvblox 오픈소스를 활용하여 생성된 고밀도 맵핑 결과물입니다.
 포인트 클라우드 생성 및 매핑의 구동 과정을 담은 영상입니다.
-![Integrated Demo](./docs/result.gif)
+<img src="./docs/result.gif" width="600" />
 
 # ROS2 & Isaac Sim 기반 3D Perception 파이프라인 구축
 
