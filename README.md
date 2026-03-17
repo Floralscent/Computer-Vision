@@ -12,7 +12,7 @@ nvblox 오픈소스를 활용하여 생성된 고밀도 맵핑 결과물입니�
 * 주요 성과: 
     * mmWave 레이더 하드웨어 사양 분석 및 선정 검토
     * Isaac Sim 데이터를 활용한 RGB-D to Point Cloud 변환 노드(d2p) 구현을 통한 컴퓨터 비전 학습
-    * NVIDIA nvblox[1]를 활용한 실시간 맵핑 프로세스 구축을 통해 라이더와 rgbd 카메라 데이터 이용 실습
+    * NVIDIA nvblox[1]를 활용한 맵핑 프로세스 구축을 통해 라이더와 rgbd 카메라 데이터 이용 실습
 [1]: https://github.com/nvidia-isaac/nvblox
 ---
 
@@ -33,7 +33,7 @@ nvblox 오픈소스를 활용하여 생성된 고밀도 맵핑 결과물입니�
 
 
 ### 2. RGB-D to Point Cloud 변환 (d2p Node)
-Isaac Sim에서 출력되는 2D Depth 이미지와 Odometry 데이터를 결합하여 실시간 3D 포인트 클라우드를 생성하는 ROS2 노드를 구현했습니다.
+Isaac Sim에서 출력되는 2D Depth 이미지와 Odometry 데이터를 결합하여 3D 포인트 클라우드를 생성하는 ROS2 노드를 구현했습니다.
 
 
 * Pinhole Camera Model: 이미지 평면의 픽셀 좌표를 3D 공간 좌표로 역투영합니다.
